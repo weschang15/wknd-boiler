@@ -1,6 +1,6 @@
 const {
   checkDatabaseConnection,
-} = require("../../domain/services/healthService");
+} = require("../../../domain/services/healthService");
 
 async function handleGetHealth(req, res, next) {
   try {
