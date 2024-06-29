@@ -1,5 +1,5 @@
 const express = require("express");
-const healthRoutes = require("./health/api/routes");
+const healthRoutes = require("./health/entry-points/api/routes");
 
 const api = express();
 // global config
