@@ -1,0 +1,34 @@
+{
+  "name": "wknd-boiler",
+  "version": "1.0.0",
+  "description": "Boilerplate for building out Node.js and Express.js API application that follows a 3-tier pattern project architecture.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weschang15/wknd-boiler.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "3-tier pattern",
+    "node",
+    "express"
+  ],
+  "author": "Wesley Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weschang15/wknd-boiler/issues"
+  },
+  "homepage": "https://github.com/weschang15/wknd-boiler#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
