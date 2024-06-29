@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/weschang15/wknd-boiler#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
